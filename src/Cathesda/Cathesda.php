@@ -24,10 +24,9 @@ namespace Cathesda;
 use pocketmine\plugin\PluginBase;
 use pocketmine\{Player, Server};
 use pocketmine\utils\TextFormat as Cathesda;
+use pocketmine\event\Listener;
 
-#------Cathesda Events------#
-
-class Cathesda extends PluginBase {
+class Cathesda extends PluginBase implements Listener{
 
   const PREFIX = "§bA§eP§cI §7|§r ";
   
@@ -35,9 +34,6 @@ class Cathesda extends PluginBase {
     $this->getLogger()->info(self::PREFIX . Cathesda::GREEN . "CathesdaAPI Loaded");
     
     }
-    
-    
-    #------Cathesda Events------#
     
     
     
