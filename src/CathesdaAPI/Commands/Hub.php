@@ -28,7 +28,7 @@ use pocketmine\utils\TextFormat as Cathesda;
 use pocketmine\level\sound\EndermanTeleportSound;
 use pocketmine\command\{PluginCommand, CommandSender};
 
-class HubCommand extends PluginCommand{
+class Hub extends PluginCommand{
 
 	public function __construct($name, Core $plugin){
 		parent::__construct($name, $plugin);
