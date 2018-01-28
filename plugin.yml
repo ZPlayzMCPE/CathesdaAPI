@@ -1,0 +1,4 @@
+name: CathesdaAPI
+api: [Cathesda, 3.0.0-ALPHA10]
+version: 0.0.1
+main: Cathesda\Cathesda
