@@ -26,7 +26,7 @@ use pocketmine\{Player, Server};
 use pocketmine\utils\TextFormat as Cathesda;
 use pocketmine\event\Listener;
 
-class Cathesda extends PluginBase implements Listener{
+class Cathesda extends PluginBase implements Listener {
 
   const PREFIX = "§bA§eP§cI §7|§r ";
   
