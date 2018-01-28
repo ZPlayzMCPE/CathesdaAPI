@@ -19,7 +19,7 @@
  *
 */
 
-namespace Commands;
+namespace CathesdaAPI\Commands;
 
 use CathesdaAPI\LoaderAPI;
 use pocketmine\math\Vector3;
